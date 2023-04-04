@@ -1,7 +1,9 @@
 def isPalindrome(string):
-    if(string==string[::-1]):
+    if (string==string[::-1]):
         return "The string is a palindrome."
-    
-string="leveg"
+    else: 
+       return "The string is not a palindrome." 
+
+string = "levej"
 print(isPalindrome(string))
     
